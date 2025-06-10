@@ -23,10 +23,10 @@
           <div class="head--menu">
             <div class="nickname">홍길동님</div>
             <div class="mypage">
-              <a href="https://www.google.com">마이페이지</a>
+              <a href="http://127.0.0.1:5500/myportfolio.html">마이페이지</a>
             </div>
             <div class="logout">
-              <a href="https://www.google.com">로그아웃</a>
+              <a href="http://127.0.0.1:5500/login.html">로그아웃</a>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
         <div class="main">
           <div class="main--container">
             <div class="subtitle--container">
-              <a href="https://www.google.com"
+              <a href="http://127.0.0.1:5500/resumelist.html"
                 ><div class="arrow">
                   <i class="fa-solid fa-arrow-left-long"></i></div
               ></a>
@@ -48,16 +48,15 @@
                 <div class="resume--title">홍길동 이력서_250609</div>
               </div>
               <div class="profile--container">
-                <div class="pic--container">
-                  <a href="https://www.google.com">
+                <label class="pic--container" for="file">
                     <div class="pic_icon--container">
                       <i class="fa-solid fa-user"></i>
                       <div class="pic_text--container">
                         <i class="fa-solid fa-circle-plus"></i><br />파일선택
                       </div>
                     </div>
-                  </a>
-                </div>
+                </label>
+                <input type="file" name="file" id="file">
                 <div class="info--container">
                   <div class="name--container">홍길동</div>
                   <div class="email--container">
@@ -213,7 +212,7 @@
                 <button
                   type="button"
                   class="save_button"
-                  onclick="location.href = 'https://www.google.com';"
+                  onclick="location.href = 'http://127.0.0.1:5500/resumelist.html';"
                 >
                   저장하기
                 </button>
