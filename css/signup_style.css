@@ -14,7 +14,7 @@
             overflow: hidden;
         }
 
-        .test {
+        .signup--id--container {
             display: flex;
         }
 
@@ -28,33 +28,38 @@
         }
 
         .head--container {
-            width: 100%;
+            /* width: 100%; */
             height: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
+            /* margin-left: 20px; */
+            /* margin-right: 20px; */
             border-bottom: 1px solid lightgray;
             color: black;
         }
 
-        .head--container .head--brand1 .head--brand2 {
-            font-size: 25px;
-            font-weight: 400;
+        .head--brand {
+            padding-left: 20px;
+            font-size: 30px;
+            font-weight: 500;
         }
 
         .head--container2 {
             display: flex;
-            font-size: 11px;
+            gap: 10px;
+            font-size: 13px;
+            margin-right: 20px;
+            font-weight: 500;
         }
 
         .signup {
-            font-size: 20px;
+            font-size: 23px;
             font-weight: bold;
             margin: 30px;
-            padding: 20px;
+            padding-top: 100px;
+            padding-bottom: 3px;
             text-align: center;
         }
 
@@ -74,11 +79,6 @@
             text-align: left;
         }
 
-        .signup--id--container {
-            display: flex;
-        }
-
-
         input {
             border: none;
             padding: 20px;
@@ -86,21 +86,14 @@
             gap: 10px;
         }
         
-        .signup--id {
+        .signup--id, .signup--name, .signup--password, .signup--password--check {
+            display: flex;
+            align-items: center;
             border-bottom: 1px solid lightgray;
-            gap: 10px;
         }
 
-        .signup--name {
-           border-bottom: 1px solid lightgray;
-        }
-
-        .signup--password {
-           border-bottom: 1px solid lightgray;
-        }
-
-        .signup--password--check {
-            border-bottom: 1px solid lightgray;
+        .label {
+            width: 80px;
         }
 
         .button {
@@ -111,6 +104,7 @@
             border-color: rgb(126, 110, 218);
             border-width: 0.3px;
             font-weight: 500;
+            height: 40px;
         }
 
 
@@ -123,6 +117,7 @@
             text-align: center;
             width: 300px;
             height: 40px;
+            border-width: 0;
         }
 
         footer {
@@ -133,11 +128,9 @@
         }
 
         .footer--copyright {
-            margin: 10px;
-            font-size: 11px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+            font-size: 13px;
         }
-
-
-
-    
-
