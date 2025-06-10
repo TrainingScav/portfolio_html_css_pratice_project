@@ -3,49 +3,153 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/resumelist.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>resumelist</title>
   </head>
   <body>
     <!-- 우선 header 작업. 폰트는 나중에하고 틀먼저 -->
     <header>
-      <div class="inner">
-        <div class="head--container">
-          <div class="head--brand head--name">이력서플랫폼</div>
-          <div class="head--brand--info">
-            <div class="head--brand">홍길동님</div>
-            <div class="head--brand">
-              <a href="">마이페이지</a>
-            </div>
-            <div class="head--brand">
-              <a href="">로그아웃</a>
-            </div>
+      <div class="head--container">
+        <div class="head--brand head--name">이력서플랫폼</div>
+        <div class="head--brand--info">
+          <div class="head--brand">홍길동님</div>
+          <div class="head--brand">
+            <a href="">마이페이지</a>
+          </div>
+          <div class="head--brand">
+            <a href="">로그아웃</a>
           </div>
         </div>
       </div>
     </header>
     <section>
       <div class="class--article--skill--container">
-        <div class="search--skill">
-          <select name="skill--stack" id="skill--stack--list">
-            <option value="" selected disabled hidden>기술스택</option>
-            <option value="HTML\CSS">JavaScript</option>
-            <option value="JavaScript">PHP</option>
-            <option value="MySQL">Java</option>
-            <option value="Spring">Golang</option>
-            <option value="JAVA">Python</option>
-          </select>
+        <div class="search--skill--container">
+          <div class="search--skill">
+            <select name="skill--stack" id="selectedBox skill--stack--list">
+              <option value="" selected disabled hidden>기술스택</option>
+              <option value="HTML\CSS">HTML\CSS</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="MySQL">MySQL</option>
+              <option value="Spring">Spring</option>
+              <option value="JAVA">JAVA</option>
+            </select>
+          </div>
+          <div class="search--skill">
+            <select name="search--work--experience" id="search--work--experience">
+              <option value="" selected disabled hidden>경력</option>
+              <option value="newbie">신입</option>
+              <option value="nerd">경력</option>
+            </select>
+          </div>
         </div>
-        <div class="search--work--experience"></div>
+        <div class="portfolio--container">
+            <div class="portfolio--info--list">
+              <div class="user--profile--img--container">
+                <div class="user--profile--img">
+                  <img src="https://picsum.photos/id/50/150/150" alt="유저이미지">
+                </div>
+              </div>
+              <div class="user--title--container">
+                <div class="user--name">홍길동</div>
+                <div class="user--portfolio--name">홍길동_이력서_240129</div>
+              </div>
+              <div class="user--address--container">
+                <div class="user--experience">신입</div>
+                <div class="user--address">경상남도 김해시</div>
+              </div>
+              <div class="user--skill--container">
+                <div class="user--skill">HTML\CSS</div>
+                <div class="user--skill">JavaScript</div>
+                <div class="user--skill">MySQL</div>
+                <div class="user--skill">Spring</div>
+                <div class="user--skill">JAVA</div>
+              </div>
+            </div>
+            <div class="portfolio--info--list">
+              <div class="user--profile--img--container">
+                <div class="user--profile--img">
+                  <img src="https://picsum.photos/id/40/150/150" alt="유저이미지">
+                </div>
+              </div>
+              <div class="user--title--container">
+                <div class="user--name">홍길동</div>
+                <div class="user--portfolio--name">홍길동_이력서_240129</div>
+              </div>
+              <div class="user--address--container">
+                <div class="user--experience">신입</div>
+                <div class="user--address">경상남도 김해시</div>
+              </div>
+              <div class="user--skill--container">
+                <div class="user--skill">HTML\CSS</div>
+                <div class="user--skill">JavaScript</div>
+                <div class="user--skill">MySQL</div>
+                <div class="user--skill">Spring</div>
+                <div class="user--skill">JAVA</div>
+              </div>
+            </div>
+            <div class="portfolio--info--list">
+              <div class="user--profile--img--container">
+                <div class="user--profile--img">
+                  <img src="https://picsum.photos/id/20/150/150" alt="유저이미지">
+                </div>
+              </div>
+              <div class="user--title--container">
+                <div class="user--name">홍길동</div>
+                <div class="user--portfolio--name">홍길동_이력서_240129</div>
+              </div>
+              <div class="user--address--container">
+                <div class="user--experience">신입</div>
+                <div class="user--address">경상남도 김해시</div>
+              </div>
+              <div class="user--skill--container">
+                <div class="user--skill">HTML\CSS</div>
+                <div class="user--skill">JavaScript</div>
+                <div class="user--skill">MySQL</div>
+                <div class="user--skill">Spring</div>
+                <div class="user--skill">JAVA</div>
+              </div>
+            </div>
+            <div class="portfolio--info--list">
+              <div class="user--profile--img--container">
+                <div class="user--profile--img">
+                  <img src="https://picsum.photos/id/70/150/150" alt="유저이미지">
+                </div>
+              </div>
+              <div class="user--title--container">
+                <div class="user--name">홍길동</div>
+                <div class="user--portfolio--name">홍길동_이력서_240129</div>
+              </div>
+              <div class="user--address--container">
+                <div class="user--experience">신입</div>
+                <div class="user--address">경상남도 김해시</div>
+              </div>
+              <div class="user--skill--container">
+                <div class="user--skill">HTML\CSS</div>
+                <div class="user--skill">JavaScript</div>
+                <div class="user--skill">MySQL</div>
+                <div class="user--skill">Spring</div>
+                <div class="user--skill">JAVA</div>
+              </div>
+            </div>
+        </div>
+        <div class="class--article--pagination--container">
+          <div class="pagination--icon"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
+          <div class="pagination--icon"><i class="pagination fa-solid fa-1"></i></div>
+          <div class="pagination--icon"><i class="pagination fa-solid fa-2"></i></div>
+          <div class="pagination--icon"><i class="pagination fa-sharp fa-solid fa-arrow-right"></i></div>
+        </div>
       </div>
-      <div class="portfolio--container">
-        <div class="user--profile--img"></div>
-        <div class="user--title--container"></div>
-        <div class="user--address--container"></div>
-        <div class="user--skill--container"></div>
-      </div>
-      <div class="class--article--pagination--container"></div>
     </section>
-    <footer></footer>
+    <footer class="class--footer">Copyright(c) 2024 홍길동 All rights reserved.</footer>
   </body>
 </html>
