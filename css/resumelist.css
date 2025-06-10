@@ -39,7 +39,7 @@ select {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     overflow: hidden;
 }
 
@@ -66,6 +66,8 @@ header {
 .head--brand--info {
     display: flex;
     gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
 }
 .head--brand :hover {
     color: black;
@@ -73,12 +75,12 @@ header {
 }
 
 .head--name {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .name {
-    font-weight: bold;;
+    font-weight: bold;
     font-size: 2.3rem;
 }
 
@@ -194,4 +196,5 @@ section {
     /* margin: 2rem; */
     padding: 5rem;
     background-color: rgb(230, 230, 230);
+    font-size: 13px;
 }

@@ -14,22 +14,22 @@ a {
 
 a:link {
     text-decoration: none;
-    color: #3f464d;
+    /* color: #3f464d; */
 }
 
 a:visited {
     text-decoration: none;
-    color: #3f464d;
+    /* color: #3f464d; */
 }
 
 a:active {
     text-decoration: none;
-    color: #3f464d;
+    /* color: #3f464d; */
 }
 
 a:hover {
     text-decoration: none;
-    color: #3f464d;
+    /* color: #3f464d; */
     cursor: pointer;
 }
 
@@ -57,12 +57,14 @@ header {}
 }
 
 .class--header--siteName {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .class--header--loginInfo {
     display: flex;
+    font-size: 13px;
+    font-weight: 500;
     gap: 10px;
 }
 
@@ -253,6 +255,7 @@ header {}
     /* margin: 2rem; */
     padding: 5rem;
     background-color: rgb(230, 230, 230);
+    font-size: 13px;
 }
 
 /* 푸터 영역 종료 */

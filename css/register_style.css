@@ -43,7 +43,7 @@ header {
   display: flex;
   align-items: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .head--menu {
@@ -52,8 +52,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .mypage,.logout,.arrow {
@@ -304,7 +304,7 @@ footer {
 .footer--message {
   width: 100%;
   height: 100%;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 3rem;
   display: flex;
   align-items: center;
