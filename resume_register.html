@@ -37,9 +37,10 @@
         <div class="main">
           <div class="main--container">
             <div class="subtitle--container">
-              <div class="arrow">
-                <i class="fa-solid fa-arrow-left-long"></i>
-              </div>
+              <a href="https://www.google.com"
+                ><div class="arrow">
+                  <i class="fa-solid fa-arrow-left-long"></i></div
+              ></a>
               <div class="subtitle">이력서 등록</div>
             </div>
             <div class="resume--container">
@@ -89,21 +90,21 @@
                       </div>
                     </div>
                     <div class="yp2">
-                        <div class="phone--container">
-                          <div class="icon--container">
-                            <i class="fa-solid fa-phone"></i>
-                          </div>
-                          <div class="phone_text--container">
-                            <input
-                              type="text"
-                              name="phone"
-                              id="text_field"
-                              placeholder="010-1234-5678"
-                            />
-                          </div>
+                      <div class="phone--container">
+                        <div class="icon--container">
+                          <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="phone_text--container">
+                          <input
+                            type="text"
+                            name="phone"
+                            id="text_field"
+                            placeholder="010-1234-5678"
+                          />
                         </div>
                       </div>
                     </div>
+                  </div>
                   <div class="address--container">
                     <div class="icon--container">
                       <i class="fa-regular fa-address-book"></i>
@@ -209,9 +210,13 @@
                 </div>
               </div>
               <div class="save--container">
-                <a href="https://www.google.com">
-                  <div class="save_button">저장하기</div>
-                </a>
+                <button
+                  type="button"
+                  class="save_button"
+                  onclick="location.href = 'https://www.google.com';"
+                >
+                  저장하기
+                </button>
               </div>
             </div>
           </div>
