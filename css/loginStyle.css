@@ -1,9 +1,19 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     all: unset;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .head--inner{
@@ -21,6 +31,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    background-color: white;
     z-index: 1000;
 }
 
@@ -45,11 +56,15 @@ header{
     align-items: anchor-center;
 }
 
+.user--skill{
+    cursor: pointer;
+}
+
 .main{
     font-size: 20px;
     font-weight: bold;
     margin: 30px;
-    padding: 20px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -105,16 +120,20 @@ input {
     text-align: center;
     width: 300px;
     height: 40px;
+    cursor: pointer;
 }
 
 footer{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 120px;
     border: 1px solid #e4e4e4;
     background-color: #f8f8f8;
     text-align: center;
     padding: 10px;
-}
-
-.footer--copyright{
-     margin: 10px;
-    font-size: 11px;
+    justify-content: center;
+    align-items: center;
 }
