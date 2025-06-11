@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/customer_inquiry.css">
+    <title>customer_inquiry</title>
+</head>
+<body>
+    <header>
+      <div class="inner">
+        <div class="head--container">
+          <div class="head--title">
+            <a href="">이력서 플랫폼</a>
+          </div>
+          <div class="head--menu">
+            <div class="nickname">홍길동님</div>
+            <div class="mypage">
+              <a href="http://127.0.0.1:5500/myportfolio.html">마이페이지</a>
+            </div>
+            <div class="logout">
+              <a href="http://127.0.0.1:5500/login.html">로그아웃</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+    <div class="inner">
+        <div class="main">
+            <div class="main--title">
+                <h2>문의하기</h2>
+            </div>
+            <div class="main--container">
+                <div class="main--form">
+                        <div class="name">
+                            <div class="label label--name">이름</div>
+                            <input type="name" placeholder="이름을 입력해주세요"/>
+                        </div>
+                        <div class="id">
+                             <div class="label label--id">아이디</div>
+                            <input type="text" name="id" placeholder="아이디를 입력해주세요"/>
+                        </div>
+                        <div class="password">
+                            <div class="label label--password">비밀번호</div>
+                            <input type="password"  placeholder="비밀번호를 입력해주세요"/>
+                        </div>
+                        <div class="title">
+                            <div class="label label--title">제목</div>
+                            <input type="text" placeholder="제목을 입력해주세요"/>
+                        </div>
+                        <div class="content">
+                            <div class="label label--content">내용</div>
+                            <textarea name="content" cols="40" rows="5" placeholder="내용을 입력하세요"></textarea>
+                        </div>
+                        <div class="attachfile">
+                            <div class="label--file">파일첨부</div>
+                             <input type="file" name="file"/>
+                        </div>
+                        <div class="main--button">
+                            <button type="button" class="button--cancel">취소</button>
+                            <button type="submit" class="button--submit" onclick="location.href='https://cs.kakao.com/'">등록</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    </section>
+    <footer class="class--footer">
+      <div class="class--footer--container">
+        <ul class="class--footer--list">
+          <li><div class="class--footer--name"><a href="">회사소개</a></div></li>
+          <li><div class="class--footer--name"><a href="">오시는길</a></div></li>
+          <li><div class="class--footer--name"><a href="">제휴문의</a></div></li>
+          <li><div class="class--footer--name"><a href="">고객문의</a></div></li>
+          <li><div class="class--footer--name"><a href="">공지사항</a></div></li>
+        </ul>
+        <div class="class--footer--copyright">Copyright(c) 2024 홍길동 All rights reserved.</div>
+      </div>
+    </footer>
+</body>
+</html>

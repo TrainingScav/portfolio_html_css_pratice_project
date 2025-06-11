@@ -1,203 +1,249 @@
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-        a {
-            all: unset;
-        }
+a {
+  all: unset;
+}
 
-        .inner {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
+.inner {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-        .signup--id--container {
-            display: flex;
-        }
+.signup--id--container {
+  display: flex;
+}
 
-        header {
-            width: 100%;
-            height: 60px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-            background-color: white;
-        }
+header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+}
 
-        .head--container {
-            /* width: 100%; */
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            /* margin-left: 20px; */
-            /* margin-right: 20px; */
-            border-bottom: 1px solid lightgray;
-            color: black;
-            cursor: pointer;
-        }
+.head--container {
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  border-bottom: 1px solid lightgray;
+  color: black;
+  cursor: pointer;
+}
 
-        .head--brand {
-            padding-left: 20px;
-            font-size: 30px;
-            font-weight: 500;
-        }
+.head--brand {
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
 
-        .head--container2 {
-            display: flex;
-            gap: 10px;
-            font-size: 13px;
-            margin-right: 20px;
-            font-weight: 500;
-            cursor: pointer;
-        }
+.head--container2 {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
 
-        .signup {
-            font-size: 23px;
-            font-weight: bold;
-            margin: 30px;
-            padding-top: 100px;
-            padding-bottom: 3px;
-            text-align: center;
-        }
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  z-index: 1;
+}
 
-        .signup--container {
-            display: flex;
-            height: 100%;
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 50px;
-            margin-bottom: 200px;
-            text-align: center;  
-            justify-content: center;          
-        }
+.main {
+    width: 100%;
+    height: 100%;
+}
 
-        .signup--form {
-            display: flex;
-            flex-direction: column;
-            font-size: 12px;
-            text-align: left;
-        }
+.signup {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 30px;
+  padding-top: 100px;
+  padding-bottom: 3px;
+  text-align: center;
+}
 
-        input {
-            border: none;
-            padding: 20px;
-            outline: none;
-            gap: 10px;
-        }
-        
-        .signup--id, .signup--name, .signup--password, .signup--password--check {
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid lightgray;
-        }
+.signup--container {
+  display: flex;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  padding-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
 
-        .label {
-            width: 80px;
-        }
+.signup--form {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: left;
+}
 
-        .button {
-            color: rgb(86, 66, 196);
-            background-color: white;
-            border-radius: 20px;
-            padding: 8px 15px;
-            border-color: rgb(126, 110, 218);
-            border-width: 0.3px;
-            font-weight: 500;
-            height: 40px;
-            cursor: pointer;
-            transition: 0.2s;
-        }
+input {
+  border: none;
+  padding: 20px;
+  outline: none;
+  gap: 10px;
+}
 
-        .button:hover {
-            background-color: rgb(236, 235, 235);
-        }
+.signup--id,
+.signup--name,
+.signup--password,
+.signup--password--check {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
 
-        .button1 {
-            background-color: rgb(86, 66, 196);
-            color: white;
-            border-radius: 20px;
-            margin: 30px;
-            font-weight: 500;
-            text-align: center;
-            width: 300px;
-            height: 40px;
-            border-width: 0;
-            cursor: pointer;
-            transition: 0.2s;
-        }
+.label {
+  width: 80px;
+}
 
-        .button1:hover {
-            background-color: rgb(74, 56, 170);
-        }
+.button {
+  color: rgb(86, 66, 196);
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border-color: rgb(126, 110, 218);
+  border-width: 0.3px;
+  font-weight: 500;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
-        .footer--copyright {
-            background-color: #f8f8f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 5rem;
-            font-size: 13px;
-        }
+.button:hover {
+  background-color: rgb(236, 235, 235);
+}
 
-        @media (max-width: 768px) {
-            
-            .head--brand {
-                font-size: 20px;
-            }
+.button1 {
+  background-color: rgb(86, 66, 196);
+  color: white;
+  border-radius: 20px;
+  margin: 30px;
+  font-weight: 500;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  border-width: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
-            .head--container2 {
-                font-size: 12px;
-            }
+.button1:hover {
+  background-color: rgb(74, 56, 170);
+}
 
-            .signup {
-                padding-top: 50px;
-            }
+.class--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgb(230, 230, 230);
+  font-size: 13px;
+}
 
-            .signup--container {
-                width: 100%;
-                height: 100%;
-                padding: 5px 10px;
-                margin-top: 20px;
-                margin-bottom: 30px;
-            }
+.class--footter--container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-            .signup--id, .signup--name, .signup--password, .signup--password--check {
-                width: 100%;
-                padding: 5px 0;
-            }
+.class--footer--list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 15px;
+}
 
-            .label {
-                min-width: 50px;
-            }
+.class--footer--copyright {
+  font-size: 14px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+}
 
-            .input {
-                padding: 10px;
-                height: 5px;
-            }
-            
-            .button {
-                min-width: 70px;
-                font-size: 11px;
-                padding: 5px 10px;
-                margin: 20px 0;
-            }
+@media (max-width: 768px) {
+  .head--brand {
+    font-size: 20px;
+  }
 
-            .button1 {
-                width: 100%;
-                margin: 20px 0;
-                font-size: 11px;
-            }
+  .head--container2 {
+    font-size: 12px;
+  }
 
-            .footer--copyright {
-                padding: 3rem;
-            }
+  .signup {
+    padding-top: 50px;
+  }
 
-        }
+  .signup--container {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .signup--id,
+  .signup--name,
+  .signup--password,
+  .signup--password--check {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .label {
+    min-width: 50px;
+  }
+
+  .input {
+    padding: 10px;
+    height: 5px;
+  }
+
+  .button {
+    min-width: 70px;
+    font-size: 11px;
+    padding: 5px 10px;
+    margin: 20px 0;
+  }
+
+  .button1 {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 11px;
+  }
+
+  .class--footer {
+        font-size: 11px;
+        padding: 2rem;
+    }
+}
