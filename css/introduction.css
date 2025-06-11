@@ -91,7 +91,7 @@ header {
 
 .section--member--container{
     width: 90%;
-    height: 650px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -99,6 +99,7 @@ header {
 }
 
 .section--member{
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -112,22 +113,53 @@ header {
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
+    display: inline-block;
+    animation: reveal 2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
+
 
 .section--member--work{
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.portfolio--info--list {
-    width: 280px;
-    height: 350px;
+.section--member--work--list {
+    width: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(218, 215, 215);
     border-radius: 5px;
     margin-top: 15px;
     margin-right: 15px;
+    margin-bottom: 20px;
     padding: 10px;
+}
+
+.member--profile--img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200%;
+    overflow: hidden;
+}
+
+.member--title--container, .member--address--container, .member--skill--container {
+    margin-top: 10px;
+}
+
+.member--name {
+    font-weight: bold;
+}
+
+.member--experience {
+    color: gray;
+}
+
+.member--skill--container {
+    display: flex;
+    gap: 5px;
 }
 
 
@@ -140,7 +172,7 @@ header {
     font-size: 13px;
 }
 
-.class--footter--container {
+.class--footer--container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +180,7 @@ header {
 
 .class--footer--list {
   list-style: none;
-  width:100%;
+  width:80%;
   padding: 0;
   margin: 0 0 25px 0;
   display: flex;
@@ -164,4 +196,14 @@ header {
   align-items: center;
   text-align: center;
   color: #888;
+}
+
+
+@keyframes reveal {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
