@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/FAQ_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="class--header--container">
+        <nav class="class--navigator--menu">
+          <div class="class--header--siteName">
+            <a href="/login.html">이력서 플랫폼</a>
+          </div>
+          <div class="class--header--loginInfo">
+            <div class="class--header--userName">홍길동님</div>
+            <div class="class--header--myPage">
+              <a href="/myportfolio.html">마이페이지</a>
+            </div>
+            <div class="class--header--myPage">
+              <a href="/login.html">로그아웃</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="class--section--container">
+        <div class="inner">
+            <div class="page--title"> 공지사항 </div>
+            <div class="class--article--notice--container">
+                <div class="notice--search--container">
+                    <div class="notice--search--type">
+                        <select name="select--notice--search--type" id="select--notice--search--type">
+                            <option value="" selected disabled hidden>분류 선택</option>
+                            <option value="newbie">공지</option>
+                            <option value="nerd">이벤트</option>
+                        </select>
+                    </div>
+                    <div class="notice--search--bar">
+                        <input type="text" name="searchBar" id="searchBar" placeholder="검색할 내용을 입력 해 주세요.">
+                        <button type="submit" class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                <div class="notice--main--container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>분류</th>
+                                <th>제목</th>
+                                <th>작성일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>공지</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>공지</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>공지</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>공지</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>공지</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>이벤트</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>이벤트</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>이벤트</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>이벤트</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                            <tr>
+                                <th>이벤트</th>
+                                <th>반가워용</th>
+                                <th>2025-06-01</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="pagination--container">
+                <div class="pagination--icon"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
+                <div class="pagination--icon"><i class="pagination fa-solid fa-1"></i></div>
+                <div class="pagination--icon"><i class="pagination fa-solid fa-2"></i></div>
+                <div class="pagination--icon"><i class="pagination fa-sharp fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="class--footer">
+      Copyright(c) 2024 홍길동 All rights reserved.
+    </footer>
+  </body>
+</html>

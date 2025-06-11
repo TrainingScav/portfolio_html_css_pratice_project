@@ -1,0 +1,245 @@
+/* 공통 디자인 시작 */
+* {
+    box-sizing: border-box;
+}
+
+input {
+    all: unset;
+}
+
+/* a 태그에 모든 요소를 초기화 한다. */
+a {
+    all: unset;
+}
+
+a:link {
+    text-decoration: none;
+    /* color: #3f464d; */
+}
+
+a:visited {
+    text-decoration: none;
+    /* color: #3f464d; */
+}
+
+a:active {
+    text-decoration: none;
+    /* color: #3f464d; */
+}
+
+a:hover {
+    text-decoration: none;
+    /* color: #3f464d; */
+    cursor: pointer;
+}
+
+input:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+select {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    all: unset;
+}
+/* 공통 디자인 끝 */
+
+/* 헤더 영역 시작 */
+header {
+    z-index: 2;
+}
+
+.class--header--container {
+    padding: 25px;
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.class--navigator--menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class--header--siteName {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.class--header--loginInfo {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+/* 헤더 영역 종료 */
+
+/* 섹션 영역 시작 */
+.class--section--container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    box-shadow: 2px -1px 5px rgba(117, 117, 117, 0.3);
+    background-image: url(img/FAQ_background3.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    overflow: hidden;
+    
+}
+
+.page--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.class--article--notice--container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 100px;
+}
+
+.notice--search--container {
+    display: flex;
+    height: 40px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.notice--search--bar {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-content: center;
+    background-color: white;
+}
+
+#searchBar {
+    margin: auto 10px auto 5px;
+    /* text-align: center; */
+}
+
+.searchBtn {
+    position: relative;
+    right: 8px;
+    font-size: 20px;
+}
+
+.notice--main--container {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+table {
+    width: 70.25rem;
+}
+
+table > thead {
+    background-color: wheat;
+    border: 1px solid black;
+    height: 2.25rem;
+}
+
+table > thead > tr > th {
+    padding: 10px;
+}
+
+table > tbody > tr > th {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.pagination--container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 섹션 영역 종료 */
+
+/* 푸터 영역 시작 */
+
+.class--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* margin: 2rem; */
+    padding: 5rem;
+    background-color: rgb(230, 230, 230);
+    font-size: 13px;
+}
+
+/* 푸터 영역 종료 */
+
+@media(max-width:768px) {
+
+    .class--header--container {
+        min-width: 370px;
+    }
+
+    .class--header--siteName {
+        font-size: 20px;
+    }
+
+    .class--section--container {
+        min-width: 461px;
+    }
+
+    .inner {
+        /* width: 412px; */
+        min-width: 461px;
+    }
+    .class--aside--container {
+        display: none;
+    }
+    .class--article--container {
+        overflow: hidden;
+    }
+    .class--article--notice--container {
+        margin: 0;
+    }
+
+    .notice--search--container, .notice--main--container {
+        min-width: 300px;
+    }
+
+    .pagination--container {
+        min-width: 500px;
+    }
+
+    .class--footer {
+        min-width: 461px;
+    }
+}
