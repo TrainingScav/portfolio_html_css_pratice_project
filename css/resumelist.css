@@ -215,6 +215,8 @@ section {
   justify-content: space-evenly;
   gap: 20px;
   font-size: 15px;
+  color: #888;
+  font-weight: bold;
 }
 
 .class--footer--copyright {
@@ -224,6 +226,7 @@ section {
   align-items: center;
   text-align: center;
   color: #888;
+  font-weight: bold;
 }
 
 @media (max-width: 760px) {
