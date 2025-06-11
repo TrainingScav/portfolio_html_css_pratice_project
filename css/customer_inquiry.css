@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: lightgray 1.5px solid;
+}
+
+.head--container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head--title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.head--menu {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.mypage,
+.logout,
+.arrow {
+  padding: 5px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.arrow:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.mypage:hover,
+.logout:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+/* =============================================================== */
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.main--title {
+  display: flex;
+  justify-content: center;
+}
+
+.main--container {
+  display: flex;
+  height: 100%;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main--form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 65%;
+}
+
+input {
+  border: none;
+  padding: 20px;
+  outline: none;
+  gap: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.name,
+.id,
+.password,
+.title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.label {
+  width: 80px;
+}
+
+.attachfile {
+  display: flex;
+}
+
+.label--file {
+  width: 80px;
+  padding-top: 20px;
+}
+
+.main--button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.button--cancel,
+.button--submit {
+  padding: 15px 20px;
+  background-color: rgb(102, 102, 240);
+  color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.button--cancel:hover,
+.button--submit:hover {
+  background-color: rgb(66, 66, 150);
+}
+
+.class--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgb(230, 230, 230);
+  font-size: 13px;
+}
+
+.class--footter--container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.class--footer--list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 15px;
+}
+
+.class--footer--copyright {
+  font-size: 14px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+}
+
+@media (max-width: 786px) {
+  .head--title {
+    font-size: 20px;
+  }
+
+  .head--menu {
+    font-size: 10px;
+  }
+
+.name,
+.id,
+.password,
+.title {
+    width: 100%;
+    padding: 5px 0;
+}
+  
+  .main--title {
+    font-size: 15px;
+  }
+
+  .main--container {
+    font-size: 12px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+
+  textarea {
+    font-size: 12px;
+  }
+
+.button--cancel,
+.button--submit {
+  padding: 10px 15px;
+}
+
+  .class--footer {
+    font-size: 11px;
+    padding: 2rem;
+  }
+}
