@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+
+a {
+    all: unsert;
+}
+
+a:link {
+    text-decoration: none;
+    color:black
+}
+
+a:visited {
+    text-decoration: none;
+    color:black
+}
+
+a:hover {
+    text-decoration: none;
+    color:black
+}
+
+a:active {
+    text-decoration: none;
+    color:black
+
+}
+
+select {
+    width: 100px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 0 2rem; */
+    overflow: hidden;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.head--container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 20px;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.head--brand--info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.head--brand :hover {
+    color: black;
+    cursor: pointer;
+}
+
+.head--name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.section--member--container{
+    width: 90%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.section--member{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:15px 0 20px 0 ;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section--member--name{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.section--member--work{
+
+}
+
+.portfolio--info--list {
+    width: 280px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+
+.class--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-color: rgb(230, 230, 230);
+    font-size: 13px;
+}
+
+.class--footter--container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.class--footer--list {
+  list-style: none;
+  width:100%;
+  padding: 0;
+  margin: 0 0 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+  font-size: 15px;
+}
+
+.class--footer--copyright {
+  font-size: 14px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+}
