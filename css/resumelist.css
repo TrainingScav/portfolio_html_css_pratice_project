@@ -41,6 +41,7 @@ select {
     margin: 0 auto;
     /* padding: 0 2rem; */
     overflow: hidden;
+    display: flex;
 }
 
 header {
@@ -54,6 +55,7 @@ header {
 .head--container {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     margin-right: 20px;
@@ -65,6 +67,7 @@ header {
 
 .head--brand--info {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     font-size: 13px;
     font-weight: 500;
@@ -154,7 +157,6 @@ section {
 
 .user--skill--container {
     display: flex;
-    flex-wrap: wrap;
     gap: 5px;
 }
 
@@ -197,4 +199,70 @@ section {
     padding: 5rem;
     background-color: rgb(230, 230, 230);
     font-size: 13px;
+}
+
+@media (max-width: 760px) {
+    .head--container {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .head--brand--info {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .head--name {
+        font-size: 24px;
+    }
+
+    .inner {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .class--article--skill--container {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .search--skill--container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .search--skill {
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .portfolio--container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio--info--list {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .user--skill--container {
+        flex-wrap: wrap;
+    }
+
+    .pagination--icon {
+        width: 20px;
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .class--footer {
+        font-size: 11px;
+        padding: 2rem;
+    }
+
+    select {
+        width: 100%;
+    }
 }
