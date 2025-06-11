@@ -258,6 +258,8 @@ button {
   justify-content: space-evenly;
   gap: 80px;
   font-size: 15px;
+  color: #888;
+  font-weight: bold;
 }
 .class--footer--copyright {
   font-size: 14px;
@@ -266,4 +268,5 @@ button {
   align-items: center;
   text-align: center;
   color: #888;
+  font-weight: bold;
 }
