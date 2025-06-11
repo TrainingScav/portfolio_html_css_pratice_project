@@ -74,7 +74,7 @@ header {}
 /* 섹션 영역 시작 */
 .class--section--container {
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     display: flex;
     flex-direction: column;
     background-color: rgb(231 231 239);
@@ -124,11 +124,12 @@ header {}
 }
 
 .listCountInfo {
-    width: 5%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .listSearchType {
@@ -161,20 +162,9 @@ header {}
 
 /*
 .class--article--list--container {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-    background-color: white;
-    padding: 10px;
+    height: 800px;
 }
 */
-
-.class--article--list--container {
-    height: 800px;
-    overflow-y: auto;
-}
 
 .portfolio--info--container {
     display: flex;
@@ -194,7 +184,6 @@ header {}
 
 .portfolioTitle {
     font-weight: bold;
-    font-size: 18px;
 }
 
 .modifyPortfolio {
@@ -259,3 +248,47 @@ header {}
 }
 
 /* 푸터 영역 종료 */
+
+@media(max-width:768px) {
+
+    .class--header--container {
+        min-width: 370px;
+    }
+
+    .class--header--siteName {
+        font-size: 20px;
+    }
+
+    .class--section--container {
+        min-width: 400px;
+    }
+
+    .page--info {
+        margin-left: 20px;
+    }
+
+    .inner {
+        /* width: 412px; */
+        flex-wrap: wrap;
+        min-width: 370px;
+    }
+    .class--aside--container {
+        display: none;
+    }
+    .class--article--container {
+        overflow: hidden;
+    }
+    .class--article--info {
+        
+    }
+    .class--article--list--container {
+        
+    }
+    .portfolio--user--skill--container {
+        flex-wrap: wrap;
+    }
+
+    .class--footer {
+        min-width: 400px;
+    }
+}
