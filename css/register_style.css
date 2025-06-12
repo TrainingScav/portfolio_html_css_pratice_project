@@ -405,4 +405,19 @@ section {
     flex-direction: column;
     padding-right: 20%;
   }
+
+          .class--footer {
+        font-size: 9px;
+        padding: 1rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
+    }
 }

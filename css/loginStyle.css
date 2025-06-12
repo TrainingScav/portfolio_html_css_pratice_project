@@ -175,10 +175,34 @@ input {
         max-width: 200px;
     }
 
-    footer{
-        width: 100%;
-        height: 50px;
-        text-size-adjust: 90%;
+  .head--container {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .head--brand--info {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .head--name {
+        font-size: 24px;
+    }
+
+        .class--footer {
+        font-size: 9px;
+        padding: 2rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
     }
 
 }

@@ -233,7 +233,20 @@ header {
         margin-bottom: 40px;
     }
 
-    .class--footer {
+
+        .class--footer {
         min-width: 461px;
+        font-size: 9px;
+        padding: 2rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
     }
 }
