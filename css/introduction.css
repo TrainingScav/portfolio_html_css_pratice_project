@@ -60,6 +60,7 @@ header {
     position: fixed;
     background-color: white;
     border-bottom: 1px solid black;
+    z-index: 1000;
 }
 
 .head--brand--info {
@@ -124,19 +125,26 @@ header {
     height: auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(218, 215, 215);
     border-radius: 5px;
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    opacity: 0.94;
+}
+
+.section--member--work--list:hover {
+    box-shadow: 1px 1px 10px #131313;
 }
 
 .member--profile--img {
+    max-width: 230px;
+    max-height: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 200%;
+    border-radius: 50%;
     overflow: hidden;
 }
 
@@ -168,6 +176,7 @@ header {
     padding: 5rem;
     background-color: rgb(230, 230, 230);
     font-size: 13px;
+    margin-top:60px;
 }
 
 .class--footter--container {
@@ -209,4 +218,38 @@ header {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+@media (max-width: 760px) {
+
+        .head--container {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .head--brand--info {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .head--name {
+        font-size: 24px;
+    }
+
+        .class--footer {
+        font-size: 9px;
+        padding: 2rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
+    }
+
 }
