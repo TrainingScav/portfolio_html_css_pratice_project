@@ -264,7 +264,20 @@ table > tbody > tr > th {
         min-width: 500px;
     }
 
-    .class--footer {
-        min-width: 461px;
+    
+        .class--footer {
+        width: 516px;
+        font-size: 9px;
+        padding: 1rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
     }
 }

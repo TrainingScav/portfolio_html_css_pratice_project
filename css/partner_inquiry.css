@@ -271,3 +271,26 @@ button {
   color: #888;
   font-weight: bold;
 }
+
+@media (max-width: 760px) {
+
+        .class--footer {
+        width: 1200px;
+        font-size: 9px;
+        padding: 2rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
+    }
+
+
+}
+
+  

@@ -311,7 +311,18 @@ header {}
         flex-wrap: wrap;
     }
 
-    .class--footer {
-        min-width: 400px;
+        .class--footer {
+        font-size: 9px;
+        padding: 2rem;
+    }
+    
+
+    .class--footer--copyright {
+        font-size: 9px;
+    }
+
+    .class--footer--list {
+        font-size: 12px;
+        gap : 20px;
     }
 }
