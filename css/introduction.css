@@ -163,9 +163,15 @@ header {
     color: gray;
 }
 
-.member--skill--container {
-    display: flex;
-    gap: 5px;
+.member--history {
+    padding: 5px;
+    color: rgb(19, 19, 19);
+    background-color: #caaff3;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top : 5px;
+    text-align: center;
+    cursor: pointer;
 }
 
 
@@ -196,6 +202,7 @@ header {
   font-size: 15px;
   color: #888 !important;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .class--footer--copyright {
