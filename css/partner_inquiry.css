@@ -71,48 +71,49 @@ header {
 /* main2 */
 .main11 {
   margin: 100px 200px;
+  min-width: 900px;
 }
 .CS {
   padding: 0 0 10px;
 }
 .main2 {
   border: gray 1px solid;
-  color:#555555;
+  color: #555555;
   padding: 90px;
-}
+  }
 .nav_ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 10px;
 }
 .nav1 {
-    padding:10px 20px;
-    margin-right: 10px;
-    transition: .3s;
-    border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  transition: 0.3s;
+  border-radius: 20px;
 }
 
 .nav1:hover {
-    background-color: #eaeaea;
-    border-radius: 20px;
-    font-weight: 500;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  font-weight: 500;
 }
 
 .nav2 {
-    padding:10px 20px;
-    margin-right: 10px;
-    border-radius: 20px;
-    background-color: #f0f5ff;
-    color: #6b7ff2;
-    font-weight: 500;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #f0f5ff;
+  color: #6b7ff2;
+  font-weight: 500;
 }
 /* ====================================================================== */
 /* sub1 */
 
 .sub1 {
-    padding: 0 0 10px;;
+  padding: 0 0 10px;
 }
 /* ====================================================================== */
 /* sub2 */
@@ -155,7 +156,7 @@ header {
 }
 
 .box {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .box_content {
   width: 400px;
@@ -178,9 +179,9 @@ header {
   display: none;
 }
 
-.part7 p{
-    font-size: 12px;
-    padding-top: 15px;
+.part7 p {
+  font-size: 12px;
+  padding-top: 15px;
 }
 /* ====================================================================== */
 /* sub3 */
@@ -227,11 +228,11 @@ button {
 /* ====================================================================== */
 /* note */
 .note1 {
-    padding:30px;
-    background-color: #f7f7f7;
+  padding: 30px;
+  background-color: #f7f7f7;
 }
 .note1 p {
-    font-size: 12px;
+  font-size: 12px;
 }
 /* ====================================================================== */
 /* footer */
