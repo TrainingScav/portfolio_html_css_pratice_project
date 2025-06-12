@@ -4,8 +4,12 @@
   margin: 0;
 }
 
-a {
+a {  
+  all: unset;}
+
+a:hover {
   all: unset;
+  cursor: pointer;
 }
 
 .inner {
