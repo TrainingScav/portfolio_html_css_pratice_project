@@ -120,7 +120,8 @@ input {
 .name,
 .id,
 .password,
-.title {
+.title,
+.content {
   display: flex;
   align-items: center;
   border-bottom: 1px solid lightgray;
@@ -128,7 +129,6 @@ input {
 
 .content {
   display: flex;
-  margin-top: 20px;
 }
 
 textarea {
@@ -137,6 +137,7 @@ textarea {
   height: 200px;
   border-radius: 5px;
   font-size: 15px;
+  margin: 20px;
 }
 
 .label {
@@ -145,11 +146,12 @@ textarea {
 
 .attachfile {
   display: flex;
+  margin-top: 20px;
+  align-items: center;
 }
 
 .label--file {
   width: 80px;
-  padding-top: 20px;
 }
 
 .main--button {
@@ -165,8 +167,9 @@ textarea {
   background-color: rgb(102, 102, 240);
   color: white;
   border-radius: 10px;
-  border-width: 1px;
+  border: 0;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .button--cancel:hover,
