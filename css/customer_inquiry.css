@@ -118,7 +118,6 @@ input {
 }
 
 .name,
-.id,
 .password,
 .title,
 .content {
@@ -225,7 +224,6 @@ textarea {
   }
 
 .name,
-.id,
 .password,
 .title {
     width: 100%;
