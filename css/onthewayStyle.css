@@ -213,8 +213,8 @@ header {
     }
 
     .inner {
-        /* width: 412px; */
         min-width: 461px;
+        padding: 0;
     }
     .class--aside--container {
         display: none;
@@ -222,16 +222,15 @@ header {
     .class--article--container {
         overflow: hidden;
     }
-    .class--article--notice--container {
+    .class--article--contactus--container {
         margin: 0;
     }
 
-    .notice--search--container, .notice--main--container {
+    .contactus--main--container {
+        display: flex;
+        flex-direction: column;
         min-width: 300px;
-    }
-
-    .pagination--container {
-        min-width: 500px;
+        margin-bottom: 40px;
     }
 
     .class--footer {
